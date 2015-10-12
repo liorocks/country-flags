@@ -44,6 +44,24 @@ $flags-path: '../images/flags.png';
 @import "/bower_components/country-flags/scss/flags";
 ```
 
+## Unofficial Country Codes
+
+Some countries does not have an official Alpha 2, Alpha 3 or Numeric codes.
+
+Below is the table of those countries and their unofficial ISO codes, which is used in this CSS.
+
+Country Name | Alpha 2 | Alpha 3 | Numeric
+------------ | ------------- | ------------ | ------------
+[Catalonia](https://en.wikipedia.org/wiki/Catalonia) | `ct` | `ctl` | `---`
+[Canary Islands](https://en.wikipedia.org/wiki/Canary_Islands) | `ci` | `cic` | `---`
+[England](https://en.wikipedia.org/wiki/England) | `en` | `eng` | `---`
+[Kurdistan](https://en.wikipedia.org/wiki/Kurdistan) | `kd` | `krd` | `---`
+[Scotland](https://en.wikipedia.org/wiki/Scotland) |  `sq`  | `sco` | `---`
+[Somaliland](https://en.wikipedia.org/wiki/Somaliland) | `sw` | `sml` | `---`
+[Tibet](https://en.wikipedia.org/wiki/Tibet) | `tb` | `tbt` | `---`
+[Wales](https://en.wikipedia.org/wiki/Wales) | `wa` | `wls` | `---`
+[Zanzibar](https://en.wikipedia.org/wiki/Zanzibar) | `zn` | `znz` | `---`
+
 ## Development
 ```
 $ sass --watch scss/_flags.scss:css/flags.css --style compressed --sourcemap=none

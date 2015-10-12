@@ -255,7 +255,9 @@ $flags-path: '../images/flags.png' !default;
     background-position: -48px -22px
   }
 
-  &.catalonia {
+  &.catalonia,
+  &.ctl,
+  &.ct, {
     background-position: -64px -22px
   }
 
@@ -701,6 +703,7 @@ $flags-path: '../images/flags.png' !default;
   }
 
   &.canary-islands,
+  &.cic,
   &.ic {
     background-position: -48px -66px
   }
@@ -859,7 +862,10 @@ $flags-path: '../images/flags.png' !default;
     background-position: -144px -77px
   }
 
-  &.kurdistan {
+  &.kurdistan,
+  &.krd,
+  &.kd
+  {
     background-position: -160px -77px
   }
 
@@ -1370,8 +1376,9 @@ $flags-path: '../images/flags.png' !default;
     background-position: -32px -132px
   }
 
+  &.scotland,
   &.sco,
-  &.scotland {
+  &.sq {
     background-position: -48px -132px
   }
 
@@ -1445,7 +1452,9 @@ $flags-path: '../images/flags.png' !default;
     background-position: -208px -132px
   }
 
-  &.somaliland {
+  &.somaliland,
+  &.sml,
+  &.sw {
     background-position: -224px -132px
   }
 
@@ -1533,7 +1542,9 @@ $flags-path: '../images/flags.png' !default;
     background-position: -160px -143px
   }
 
-  &.tibet {
+  &.tibet,
+  &.tbt,
+  &.tb {
     background-position: -176px -143px
   }
 
@@ -1708,7 +1719,9 @@ $flags-path: '../images/flags.png' !default;
     background-position: -48px -165px
   }
 
-  &.wales {
+  &.wales,
+  &.wls,
+  &.wa {
     background-position: -64px -165px
   }
 
@@ -1754,7 +1767,9 @@ $flags-path: '../images/flags.png' !default;
     background-position: -160px -165px
   }
 
-  &.zanzibar {
+  &.zanzibar,
+  &.znz,
+  &.zn {
     background-position: -176px -165px
   }
 
