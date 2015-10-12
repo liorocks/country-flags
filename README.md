@@ -1,6 +1,6 @@
 # Country Flags
 
-[FamFamFam](http://www.famfamfam.com/lab/icons/flags/) Country Flags Sprite with ISO 3166-1 [Alpha 2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), [Alpha 3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) and [numeric](https://en.wikipedia.org/wiki/ISO_3166-1_numeric) code standarts. 
+[FamFamFam](http://www.famfamfam.com/lab/icons/flags/) Country Flags Sprite with ISO 3166-1 [Alpha 2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), [Alpha 3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) and [Numeric](https://en.wikipedia.org/wiki/ISO_3166-1_numeric) code standarts. 
 
 
 ## Installation
