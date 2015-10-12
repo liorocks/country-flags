@@ -1,6 +1,6 @@
 # Country Flags
 
-[FamFamFam](http://www.famfamfam.com/lab/icons/flags/) Country Flags Sprite with ISO 3166-1 [Alpha 2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) and [Alpha 3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) code standarts. 
+[FamFamFam](http://www.famfamfam.com/lab/icons/flags/) Country Flags Sprite with ISO 3166-1 [Alpha 2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), [Alpha 3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) and [numeric](https://en.wikipedia.org/wiki/ISO_3166-1_numeric) code standarts. 
 
 
 ## Installation
@@ -20,6 +20,8 @@ $ bower install country-flags --save
 <i class="flag ge"></i>
 <!-- Alpha 3 Code -->
 <i class="flag geo"></i>
+<!-- Numeric Code -->
+<i class="flag n-268"></i>
 <!-- Country Name -->
 <i class="flag georgia"></i>
 <!-- note: "ka" can be used as alternative only for georgian flag -->
@@ -35,6 +37,7 @@ This package has [SASS](http://sass-lang.com/) support (SCSS Syntax).
 ```
 // override default options
 $flags-selector: '.flag';
+$flags-numeric-code-prefix: '.n-';
 $flags-path: '../images/flags.png';
 
 // import _flags.scss file

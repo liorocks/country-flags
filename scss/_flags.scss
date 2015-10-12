@@ -1,4 +1,5 @@
 $flags-selector: '.flag' !default;
+$flags-numeric-code-prefix: '.n-' !default;
 $flags-path: '../images/flags.png' !default;
 
 #{$flags-selector} {
@@ -7,210 +8,247 @@ $flags-path: '../images/flags.png' !default;
   display: inline-block;
   background: url($flags-path) no-repeat;
 
+  &#{$flags-numeric-code-prefix}020,
   &.andorra,
   &.and,
   &.ad {
     background-position: -16px 0;
   }
 
+  &#{$flags-numeric-code-prefix}784,
   &.united-arab-emirates,
   &.are,
   &.ae {
     background-position: -32px 0;
   }
 
+  &#{$flags-numeric-code-prefix}004,
   &.afghanistan,
   &.afg,
   &.af {
     background-position: -48px 0
   }
 
+  &#{$flags-numeric-code-prefix}028,
   &.antigua-and-barbuda,
   &.atg,
   &.ag {
     background-position: -64px 0
   }
 
+  &#{$flags-numeric-code-prefix}660,
   &.anguilla,
   &.aia,
   &.ai {
     background-position: -80px 0
   }
 
+  &#{$flags-numeric-code-prefix}008,
   &.albania,
   &.alb,
   &.al {
     background-position: -96px 0
   }
 
+  &#{$flags-numeric-code-prefix}051,
   &.armenia,
   &.arm,
   &.am {
     background-position: -112px 0
   }
 
+  &#{$flags-numeric-code-prefix}530,
   &.netherlands-antilles,
   &.ant,
   &.an {
     background-position: -128px 0
   }
 
+  &#{$flags-numeric-code-prefix}024,
   &.angola,
   &.ago,
   &.ao {
     background-position: -144px 0
   }
 
+  &#{$flags-numeric-code-prefix}032,
   &.argentina,
   &.arg,
   &.ar {
     background-position: -160px 0
   }
 
+  &#{$flags-numeric-code-prefix}016,
   &.american-samoa,
   &.asm,
   &.as {
     background-position: -176px 0
   }
 
+  &#{$flags-numeric-code-prefix}040,
   &.austria,
   &.aut,
   &.at {
     background-position: -192px 0
   }
 
+
+  &#{$flags-numeric-code-prefix}036,
   &.australia,
   &.aus,
   &.au {
     background-position: -208px 0
   }
 
+  &#{$flags-numeric-code-prefix}533,
   &.aruba,
   &.abw,
   &.aw {
     background-position: -224px 0
   }
 
+  &#{$flags-numeric-code-prefix}031,
   &.azerbaijan,
   &.aze,
   &.az {
     background-position: -240px 0
   }
 
+  &#{$flags-numeric-code-prefix}070,
   &.bosnia-and-erzegovina,
   &.bih,
   &.ba {
     background-position: 0 -11px
   }
 
+  &#{$flags-numeric-code-prefix}052,
   &.barbados,
   &.brb,
   &.bb {
     background-position: -16px -11px
   }
 
+  &#{$flags-numeric-code-prefix}050,
   &.bangladesh,
   &.bgd,
   &.bd {
     background-position: -32px -11px
   }
 
+  &#{$flags-numeric-code-prefix}056,
   &.belgium,
   &.bel,
   &.be {
     background-position: -48px -11px
   }
 
+  &#{$flags-numeric-code-prefix}854,
   &.burkina-faso,
   &.bfa,
   &.bf {
     background-position: -64px -11px
   }
 
+  &#{$flags-numeric-code-prefix}100,
   &.bulgaria,
   &.bgr,
   &.bg {
     background-position: -80px -11px
   }
 
+  &#{$flags-numeric-code-prefix}048,
   &.bahrain,
   &.bhr,
   &.bh {
     background-position: -96px -11px
   }
 
+  &#{$flags-numeric-code-prefix}108,
   &.burundi,
   &.bdi,
   &.bi {
     background-position: -112px -11px
   }
 
+  &#{$flags-numeric-code-prefix}204,
   &.benin,
   &.ben,
   &.bj {
     background-position: -128px -11px
   }
 
+  &#{$flags-numeric-code-prefix}060,
   &.bermuda,
   &.bmu,
   &.bm {
     background-position: -144px -11px
   }
 
+  &#{$flags-numeric-code-prefix}096,
   &.brunei-darussalam,
+  &.brunei,
   &.brn,
   &.bn {
     background-position: -160px -11px
   }
 
+  &#{$flags-numeric-code-prefix}068,
   &.bolivia,
   &.bol,
   &.bo {
     background-position: -176px -11px
   }
 
+  &#{$flags-numeric-code-prefix}076,
   &.brazil,
   &.bra,
   &.br {
     background-position: -192px -11px
   }
 
+  &#{$flags-numeric-code-prefix}044,
   &.bahamas,
   &.bhs,
   &.bs {
     background-position: -208px -11px
   }
 
+  &#{$flags-numeric-code-prefix}064,
   &.bhutan,
   &.btn,
   &.bt {
     background-position: -224px -11px
   }
 
+  &#{$flags-numeric-code-prefix}074,
   &.bouvet-island,
   &.bvt,
   &.bv {
     background-position: -240px -11px
   }
 
+  &#{$flags-numeric-code-prefix}072,
   &.botswana,
   &.bwa,
   &.bw {
     background-position: 0 -22px
   }
 
+  &#{$flags-numeric-code-prefix}112,
   &.belarus,
   &.blr,
   &.by {
     background-position: -16px -22px
   }
 
+  &#{$flags-numeric-code-prefix}084,
   &.belize,
   &.blz,
   &.bz {
     background-position: -32px -22px
   }
 
+  &#{$flags-numeric-code-prefix}124,
   &.canada,
   &.can,
   &.ca {
@@ -222,154 +260,186 @@ $flags-path: '../images/flags.png' !default;
   }
 
   // Republic of Congo
+  &#{$flags-numeric-code-prefix}180,
   &.congo,
   &.cod,
   &.cd {
     background-position: -80px -22px
   }
 
+  &#{$flags-numeric-code-prefix}140,
   &.central-african-republic,
+  &.africa,
   &.caf,
   &.cf {
     background-position: -96px -22px
   }
 
   // a.k.a. Congo
+  &#{$flags-numeric-code-prefix}178,
   &.brazzaville,
   &.cog,
   &.cg {
     background-position: -112px -22px
   }
 
+  &#{$flags-numeric-code-prefix}756,
   &.switzerland,
   &.che,
   &.ch {
     background-position: -128px -22px
   }
 
+  &#{$flags-numeric-code-prefix}384,
+  &.cote-d-ivoire,
+  &.ivory-coast,
   &.civ,
   &.ci {
     background-position: -144px -22px
   }
 
+  &#{$flags-numeric-code-prefix}184,
   &.cook-islands,
   &.cok,
   &.ck {
     background-position: -160px -22px
   }
 
+  &#{$flags-numeric-code-prefix}152,
   &.chile,
   &.chl,
   &.cl {
     background-position: -176px -22px
   }
 
+  &#{$flags-numeric-code-prefix}120,
   &.cameroon,
   &.cmr,
   &.cm {
     background-position: -192px -22px
   }
 
+  &#{$flags-numeric-code-prefix}156,
   &.china,
   &.chn,
   &.cn {
     background-position: -208px -22px
   }
 
+  &#{$flags-numeric-code-prefix}170,
   &.colombia,
   &.col,
   &.co {
     background-position: -224px -22px
   }
 
+  &#{$flags-numeric-code-prefix}188,
   &.costa-rica,
   &.cri,
   &.cr {
     background-position: -240px -22px
   }
 
+  &#{$flags-numeric-code-prefix}192,
   &.cuba,
   &.cub,
   &.cu {
     background-position: 0 -33px
   }
 
+  &#{$flags-numeric-code-prefix}132,
   &.cape-verde,
   &.cpv,
   &.cv {
     background-position: -16px -33px
   }
 
+  &#{$flags-numeric-code-prefix}531,
+  &.curacao,
+  &.curachao,
+  &.cuw,
   &.cw {
     background-position: -32px -33px
   }
 
+  &#{$flags-numeric-code-prefix}196,
   &.cypros,
   &.cyp,
   &.cy {
     background-position: -48px -33px
   }
 
+  &#{$flags-numeric-code-prefix}203,
   &.czech-republic,
   &.cze,
   &.cz {
     background-position: -64px -33px
   }
 
+  &#{$flags-numeric-code-prefix}276,
   &.germany,
   &.deu,
   &.de {
     background-position: -80px -33px
   }
 
+  &#{$flags-numeric-code-prefix}262,
   &.djibouti,
   &.dji,
   &.dj {
     background-position: -96px -33px
   }
 
+  &#{$flags-numeric-code-prefix}208,
   &.denmark,
   &.dnk,
   &.dk {
     background-position: -112px -33px
   }
 
+  &#{$flags-numeric-code-prefix}212,
   &.dominica,
   &.dma,
   &.dm {
     background-position: -128px -33px
   }
 
+  &#{$flags-numeric-code-prefix}214,
   &.dominican-republic,
   &.dom,
   &.do {
     background-position: -144px -33px
   }
 
+  &#{$flags-numeric-code-prefix}012,
   &.algeria,
   &.dza,
   &.dz {
     background-position: -160px -33px
   }
 
+  &#{$flags-numeric-code-prefix}218,
   &.ecuador,
   &.ecu,
   &.ec {
     background-position: -176px -33px
   }
 
+  &#{$flags-numeric-code-prefix}233,
   &.estonia,
   &.est,
   &.ee {
     background-position: -192px -33px
   }
 
+  &#{$flags-numeric-code-prefix}818,
   &.egypt,
   &.egy,
   &.eg {
     background-position: -208px -33px
   }
 
+  &#{$flags-numeric-code-prefix}732,
   &.western-sahara,
   &.esh,
   &.eh {
@@ -382,40 +452,49 @@ $flags-path: '../images/flags.png' !default;
     background-position: -240px -33px
   }
 
+  &#{$flags-numeric-code-prefix}232,
   &.eritrea,
   &.eri,
   &.er {
     background-position: 0 -44px
   }
 
+  &#{$flags-numeric-code-prefix}724,
   &.spain,
   &.esp,
   &.es {
     background-position: -16px -44px
   }
 
+  &#{$flags-numeric-code-prefix}231,
   &.ethiopia,
   &.eth,
   &.et {
     background-position: -32px -44px
   }
 
+  &.int,
+  &.europe,
+  &.eur,
   &.eu {
     background-position: -48px -44px
   }
 
+  &#{$flags-numeric-code-prefix}246,
   &.finland,
   &.fin,
   &.fi {
     background-position: -64px -44px
   }
 
+  &#{$flags-numeric-code-prefix}242,
   &.fiji,
   &.fji,
   &.fj {
     background-position: -80px -44px
   }
 
+  &#{$flags-numeric-code-prefix}238,
   &.falkland-islands,
   &.falkland,
   &.malvinas,
@@ -424,42 +503,49 @@ $flags-path: '../images/flags.png' !default;
     background-position: -96px -44px
   }
 
+  &#{$flags-numeric-code-prefix}583,
   &.micronesia,
   &.fsm,
   &.fm {
     background-position: -112px -44px
   }
 
+  &#{$flags-numeric-code-prefix}234,
   &.faroe-islands,
   &.fro,
   &.fo {
     background-position: -128px -44px
   }
 
+  &#{$flags-numeric-code-prefix}250,
   &.france,
   &.fra,
   &.fr {
     background-position: -144px -44px
   }
 
+  &#{$flags-numeric-code-prefix}266,
   &.gabon,
   &.gab,
   &.ga {
     background-position: -160px -44px
   }
 
+  &#{$flags-numeric-code-prefix}826,
   &.united-kingdom,
   &.gbr,
   &.gb {
     background-position: -176px -44px
   }
 
+  &#{$flags-numeric-code-prefix}308,
   &.grenada,
   &.grd,
   &.gd {
     background-position: -192px -44px
   }
 
+  &#{$flags-numeric-code-prefix}268,
   &.georgia,
   &.geo,
   &.ka,
@@ -467,126 +553,147 @@ $flags-path: '../images/flags.png' !default;
     background-position: -208px -44px
   }
 
+  &#{$flags-numeric-code-prefix}254,
   &.french-guiana,
   &.guf,
   &.gf {
     background-position: -224px -44px
   }
 
+  &#{$flags-numeric-code-prefix}831,
   &.guernsey,
   &.ggy,
   &.gg {
     background-position: -240px -44px
   }
 
+  &#{$flags-numeric-code-prefix}288,
   &.ghana,
   &.gha,
   &.gh {
     background-position: 0 -55px
   }
 
+  &#{$flags-numeric-code-prefix}292,
   &.gibraltar,
   &.gib,
   &.gi {
     background-position: -16px -55px
   }
 
+  &#{$flags-numeric-code-prefix}304,
   &.greenland,
   &.grl,
   &.gl {
     background-position: -32px -55px
   }
 
+  &#{$flags-numeric-code-prefix}270,
   &.gambia,
   &.gmb,
   &.gm {
     background-position: -48px -55px
   }
 
+  &#{$flags-numeric-code-prefix}324,
   &.guinea,
   &.gin,
   &.gn {
     background-position: -64px -55px
   }
 
+  &#{$flags-numeric-code-prefix}312,
   &.guadeloupe,
   &.glp,
   &.gp {
     background-position: -80px -55px
   }
 
+  &#{$flags-numeric-code-prefix}226,
   &.equatorial-guinea,
   &.gnq,
   &.gq {
     background-position: -96px -55px
   }
 
+  &#{$flags-numeric-code-prefix}300,
   &.greece,
   &.grc,
   &.gr {
     background-position: -112px -55px
   }
 
+  &#{$flags-numeric-code-prefix}239,
   &.south-georgia-and-the-south-sandwich-islands,
   &.sgs,
   &.gs {
     background-position: -128px -55px
   }
 
+  &#{$flags-numeric-code-prefix}320,
   &.guatemala,
   &.gtm,
   &.gt {
     background-position: -144px -55px
   }
 
-  &.guamm,
+  &#{$flags-numeric-code-prefix}316,
+  &.guam,
   &.gum,
   &.gu {
     background-position: -160px -55px
   }
 
+  &#{$flags-numeric-code-prefix}624,
   &.guinea-bissau,
   &.gnb,
   &.gw {
     background-position: -176px -55px
   }
 
+  &#{$flags-numeric-code-prefix}328,
   &.guyana,
   &.guy,
   &.gy {
     background-position: -192px -55px
   }
 
+  &#{$flags-numeric-code-prefix}344,
   &.hong-kong,
   &.hkg,
   &.hk {
     background-position: -208px -55px
   }
 
+  &#{$flags-numeric-code-prefix}334,
   &.heard-island-and-mcdonald-islands,
   &.hmd,
   &.hm {
     background-position: -224px -55px
   }
 
+  &#{$flags-numeric-code-prefix}340,
   &.honduras,
   &.hnd,
   &.hn {
     background-position: -240px -55px
   }
 
+  &#{$flags-numeric-code-prefix}191,
   &.croatia,
   &.hrv,
   &.hr {
     background-position: 0 -66px
   }
 
+  &#{$flags-numeric-code-prefix}332,
   &.haiti,
   &.hti,
   &.ht {
     background-position: -16px -66px
   }
 
+  &#{$flags-numeric-code-prefix}348,
   &.hungary,
   &.hun,
   &.hu {
@@ -598,132 +705,154 @@ $flags-path: '../images/flags.png' !default;
     background-position: -48px -66px
   }
 
+  &#{$flags-numeric-code-prefix}360,
   &.indonesia,
   &.idn,
   &.id {
     background-position: -64px -66px
   }
 
+  &#{$flags-numeric-code-prefix}372,
   &.ireland,
   &.irl,
   &.ie {
     background-position: -80px -66px
   }
 
+  &#{$flags-numeric-code-prefix}376,
   &.israel,
   &.isr,
   &.il {
     background-position: -96px -66px
   }
 
+  &#{$flags-numeric-code-prefix}833,
   &.isle-of-man,
   &.imn,
   &.im {
     background-position: -112px -66px
   }
 
+  &#{$flags-numeric-code-prefix}356,
   &.india,
   &.ind,
   &.in {
     background-position: -128px -66px
   }
 
+  &#{$flags-numeric-code-prefix}086,
   &.british-indian-ocean-territory,
   &.iot,
   &.io {
     background-position: -144px -66px
   }
 
+  &#{$flags-numeric-code-prefix}368,
   &.iraq,
   &.irq,
   &.iq {
     background-position: -160px -66px
   }
 
+  &#{$flags-numeric-code-prefix}368,
   &.iran,
   &.irn,
   &.ir {
     background-position: -176px -66px
   }
 
+  &#{$flags-numeric-code-prefix}352,
   &.iceland,
   &.isl,
   &.is {
     background-position: -192px -66px
   }
 
-  &.ita,
+  &#{$flags-numeric-code-prefix}380,
   &.italy,
+  &.ita,
   &.it {
     background-position: -208px -66px
   }
 
+  &#{$flags-numeric-code-prefix}832,
   &.jersey,
   &.jey,
   &.je {
     background-position: -224px -66px
   }
 
+  &#{$flags-numeric-code-prefix}388,
   &.jamaica,
   &.jam,
   &.jm {
     background-position: -240px -66px
   }
 
+  &#{$flags-numeric-code-prefix}400,
   &.jordan,
   &.jor,
   &.jo {
     background-position: 0 -77px
   }
 
+  &#{$flags-numeric-code-prefix}392,
   &.japan,
   &.jpn,
   &.jp {
     background-position: -16px -77px
   }
 
+  &#{$flags-numeric-code-prefix}404,
   &.kenya,
   &.ken,
   &.ke {
     background-position: -32px -77px
   }
 
+  &#{$flags-numeric-code-prefix}417,
   &.kyrgyzstan,
   &.kgz,
   &.kg {
     background-position: -48px -77px
   }
 
+  &#{$flags-numeric-code-prefix}116,
   &.cambodia,
   &.khm,
   &.kh {
     background-position: -64px -77px
   }
 
+  &#{$flags-numeric-code-prefix}296,
   &.kiribati,
   &.kir,
   &.ki {
     background-position: -80px -77px
   }
 
+  &#{$flags-numeric-code-prefix}174,
   &.comoros,
   &.com,
   &.km {
     background-position: -96px -77px
   }
 
+  &#{$flags-numeric-code-prefix}659,
   &.saint-kitts-and-nevis,
   &.kna,
   &.kn {
     background-position: -112px -77px
   }
 
+  &#{$flags-numeric-code-prefix}408,
   &.north-korea,
   &.prk,
   &.kp {
     background-position: -128px -77px
   }
 
+  &#{$flags-numeric-code-prefix}410,
   &.south-korea,
   &.kor,
   &.kr {
@@ -734,238 +863,280 @@ $flags-path: '../images/flags.png' !default;
     background-position: -160px -77px
   }
 
+  &#{$flags-numeric-code-prefix}414,
   &.kuwait,
   &.kwt,
   &.kw {
     background-position: -176px -77px
   }
 
+  &#{$flags-numeric-code-prefix}136,
   &.cayman-islands,
   &.cym,
   &.ky {
     background-position: -192px -77px
   }
 
+  &#{$flags-numeric-code-prefix}398,
   &.kazakhstan,
   &.kaz,
   &.kz {
     background-position: -208px -77px
   }
 
+  &#{$flags-numeric-code-prefix}418,
   &.lao-pdr,
   &.lao,
   &.la {
     background-position: -224px -77px
   }
 
+  &#{$flags-numeric-code-prefix}422,
   &.lebanon,
   &.lbn,
   &.lb {
     background-position: -240px -77px
   }
 
+  &#{$flags-numeric-code-prefix}662,
   &.saint-lucia,
   &.lca,
   &.lc {
     background-position: 0 -88px
   }
 
+  &#{$flags-numeric-code-prefix}438,
   &.liechtenstein,
   &.lie,
   &.li {
     background-position: -16px -88px
   }
 
+  &#{$flags-numeric-code-prefix}144,
   &.sri-lanka,
   &.lka,
   &.lk {
     background-position: -32px -88px
   }
 
+  &#{$flags-numeric-code-prefix}430,
   &.liberia,
   &.lbr,
   &.lr {
     background-position: -48px -88px
   }
 
+  &#{$flags-numeric-code-prefix}426,
   &.lesotho,
   &.lso,
   &.ls {
     background-position: -64px -88px
   }
 
+  &#{$flags-numeric-code-prefix}440,
   &.lithuania,
   &.ltu,
   &.lt {
     background-position: -80px -88px
   }
 
+  &#{$flags-numeric-code-prefix}442,
   &.luxembourg,
   &.lux,
   &.lu {
     background-position: -96px -88px
   }
 
+  &#{$flags-numeric-code-prefix}428,
   &.latvia,
   &.lva,
   &.lv {
     background-position: -112px -88px
   }
 
+  &#{$flags-numeric-code-prefix}434,
   &.libya,
   &.lby,
   &.ly {
     background-position: -128px -88px
   }
 
+  &#{$flags-numeric-code-prefix}504,
+  &.morocco,
+  &.mar,
   &.ma {
     background-position: -144px -88px
   }
 
+  &#{$flags-numeric-code-prefix}492,
   &.monaco,
   &.mco,
   &.mc {
     background-position: -160px -88px
   }
 
+  &#{$flags-numeric-code-prefix}498,
   &.moldova,
   &.mda,
   &.md {
     background-position: -176px -88px
   }
 
+  &#{$flags-numeric-code-prefix}499,
   &.montenegro,
   &.mne,
   &.me {
     background-position: -192px -88px
   }
 
+  &#{$flags-numeric-code-prefix}450,
   &.madagascar,
   &.mdg,
   &.mg {
     background-position: -208px -88px
   }
 
+  &#{$flags-numeric-code-prefix}584,
   &.marshall-islands,
   &.mhl,
   &.mh {
     background-position: -224px -88px
   }
 
+  &#{$flags-numeric-code-prefix}807,
   &.macedonia,
   &.mkd,
   &.mk {
     background-position: -240px -88px
   }
 
+  &#{$flags-numeric-code-prefix}466,
   &.mali,
   &.mli,
   &.ml {
     background-position: 0 -99px
   }
 
+  &#{$flags-numeric-code-prefix}104,
   &.myanmar,
   &.mmr,
   &.mm {
     background-position: -16px -99px
   }
 
+  &#{$flags-numeric-code-prefix}496,
   &.mongolia,
   &.mng,
   &.mn {
     background-position: -32px -99px
   }
 
+  &#{$flags-numeric-code-prefix}446,
   &.macao,
   &.mac,
   &.mo {
     background-position: -48px -99px
   }
 
+  &#{$flags-numeric-code-prefix}580,
   &.northern-mariana-islands,
   &.mnp,
   &.mp {
     background-position: -64px -99px
   }
 
+  &#{$flags-numeric-code-prefix}474,
   &.martinique,
   &.mtq,
   &.mq {
     background-position: -80px -99px
   }
 
+  &#{$flags-numeric-code-prefix}478,
   &.mauritania,
   &.mrt,
   &.mr {
     background-position: -96px -99px
   }
 
+  &#{$flags-numeric-code-prefix}500,
   &.montserrat,
   &.msr,
   &.ms {
     background-position: -112px -99px
   }
 
+  &#{$flags-numeric-code-prefix}470,
   &.malta,
   &.mlt,
   &.mt {
     background-position: -128px -99px
   }
 
+  &#{$flags-numeric-code-prefix}480,
   &.mauritius,
   &.mus,
   &.mu {
     background-position: -144px -99px
   }
 
+  &#{$flags-numeric-code-prefix}462,
   &.maldives,
   &.mdv,
   &.mv {
     background-position: -160px -99px
   }
 
+  &#{$flags-numeric-code-prefix}454,
   &.malawi,
   &.mwi,
   &.mw {
     background-position: -176px -99px
   }
 
+  &#{$flags-numeric-code-prefix}484,
   &.mexico,
   &.mex,
   &.mx {
     background-position: -192px -99px
   }
 
+  &#{$flags-numeric-code-prefix}458,
   &.malaysia,
   &.mys,
   &.my {
     background-position: -208px -99px
   }
 
+  &#{$flags-numeric-code-prefix}508,
   &.mozambique,
   &.moz,
   &.mz {
     background-position: -224px -99px
   }
 
+  &#{$flags-numeric-code-prefix}516,
   &.namibia,
   &.nam,
   &.na {
     background-position: -240px -99px
   }
 
+  &#{$flags-numeric-code-prefix}540,
   &.new-caledonia,
   &.ncl,
   &.nc {
     background-position: 0 -110px
   }
 
+  &#{$flags-numeric-code-prefix}562,
   &.niger,
   &.ner,
   &.ne {
     background-position: -16px -110px
   }
 
+  &#{$flags-numeric-code-prefix}574,
   &.norfolk-island,
   &.norfolk,
   &.nfk,
@@ -973,192 +1144,226 @@ $flags-path: '../images/flags.png' !default;
     background-position: -32px -110px
   }
 
+  &#{$flags-numeric-code-prefix}566,
   &.nigeria,
   &.nga,
   &.ng {
     background-position: -48px -110px
   }
 
+  &#{$flags-numeric-code-prefix}558,
   &.nicaragua,
   &.nic,
   &.ni {
     background-position: -64px -110px
   }
 
+  &#{$flags-numeric-code-prefix}528,
   &.netherlands,
   &.nld,
   &.nl {
     background-position: -80px -110px
   }
 
+  &#{$flags-numeric-code-prefix}578,
   &.norway,
   &.nor,
   &.no {
     background-position: -96px -110px
   }
 
+  &#{$flags-numeric-code-prefix}524,
   &.nepal,
   &.npl,
   &.np {
     background-position: -112px -110px
   }
 
+  &#{$flags-numeric-code-prefix}520,
   &.nauru,
   &.nru,
   &.nr {
     background-position: -128px -110px
   }
 
+  &#{$flags-numeric-code-prefix}570,
   &.niue,
   &.niu,
   &.nu {
     background-position: -144px -110px
   }
 
+  &#{$flags-numeric-code-prefix}554,
   &.new-zealand,
   &.nzl,
   &.nz {
     background-position: -160px -110px
   }
 
+  &#{$flags-numeric-code-prefix}512,
   &.oman,
   &.omn,
   &.om {
     background-position: -176px -110px
   }
 
+  &#{$flags-numeric-code-prefix}591,
   &.panama,
   &.pan,
   &.pa {
     background-position: -192px -110px
   }
 
+  &#{$flags-numeric-code-prefix}604,
   &.peru,
   &.per,
   &.pe {
     background-position: -208px -110px
   }
 
+  &#{$flags-numeric-code-prefix}258,
   &.french-polynesia,
   &.pyf,
   &.pf {
     background-position: -224px -110px
   }
 
+  &#{$flags-numeric-code-prefix}598,
   &.papua-new-guinea,
+  &.new-guinea,
   &.png,
   &.pg {
     background-position: -240px -110px
   }
 
+  &#{$flags-numeric-code-prefix}608,
   &.philippines,
   &.phl,
   &.ph {
     background-position: 0 -121px
   }
 
+  &#{$flags-numeric-code-prefix}586,
   &.pakistan,
   &.pak,
   &.pk {
     background-position: -16px -121px
   }
 
+  &#{$flags-numeric-code-prefix}616,
   &.poland,
   &.pol,
   &.pl {
     background-position: -32px -121px
   }
 
+  &#{$flags-numeric-code-prefix}666,
   &.saint-pierre-and-miquelon,
   &.spm,
   &.pm {
     background-position: -48px -121px
   }
 
+  &#{$flags-numeric-code-prefix}612,
   &.pitcairn,
   &.pcn,
   &.pn {
     background-position: -64px -121px
   }
 
+  &#{$flags-numeric-code-prefix}630,
   &.puerto-rico,
   &.pri,
   &.pr {
     background-position: -80px -121px
   }
 
+  &#{$flags-numeric-code-prefix}275,
   &.palestinian-territory,
+  &.palestine,
   &.pse,
   &.ps {
     background-position: -96px -121px
   }
 
+  &#{$flags-numeric-code-prefix}620,
   &.portugal,
   &.prt,
   &.pt {
     background-position: -112px -121px
   }
 
+  &#{$flags-numeric-code-prefix}585,
   &.palau,
   &.plw,
   &.pw {
     background-position: -128px -121px
   }
 
+  &#{$flags-numeric-code-prefix}600,
   &.paraguay,
   &.pry,
   &.py {
     background-position: -144px -121px
   }
 
+  &#{$flags-numeric-code-prefix}634,
   &.qatar,
   &.qat,
   &.qa {
     background-position: -160px -121px
   }
 
+  &#{$flags-numeric-code-prefix}638,
   &.reunion,
   &.reu,
   &.re {
     background-position: -176px -121px
   }
 
+  &#{$flags-numeric-code-prefix}642,
   &.romania,
   &.rou,
   &.ro {
     background-position: -192px -121px
   }
 
+  &#{$flags-numeric-code-prefix}688,
   &.serbia,
   &.srb,
   &.rs {
     background-position: -208px -121px
   }
 
+  &#{$flags-numeric-code-prefix}643,
   &.russia,
   &.rus,
   &.ru {
     background-position: -224px -121px
   }
 
+  &#{$flags-numeric-code-prefix}646,
   &.rwanda,
   &.rwa,
   &.rw {
     background-position: -240px -121px
   }
 
+  &#{$flags-numeric-code-prefix}682,
   &.saudi-arabia,
   &.sau,
   &.sa {
     background-position: 0 -132px
   }
 
+  &#{$flags-numeric-code-prefix}090,
   &.solomon-islands,
   &.slb,
   &.sb {
     background-position: -16px -132px
   }
 
+  &#{$flags-numeric-code-prefix}690,
   &.seychelles,
   &.syc,
   &.sc {
@@ -1170,60 +1375,70 @@ $flags-path: '../images/flags.png' !default;
     background-position: -48px -132px
   }
 
+  &#{$flags-numeric-code-prefix}729,
   &.sudan,
   &.sdn,
   &.sd {
     background-position: -64px -132px
   }
 
+  &#{$flags-numeric-code-prefix}752,
   &.sweden,
   &.swe,
   &.se {
     background-position: -80px -132px
   }
 
+  &#{$flags-numeric-code-prefix}702,
   &.singapore,
   &.sgp,
   &.sg {
     background-position: -96px -132px
   }
 
+  &#{$flags-numeric-code-prefix}654,
   &.saint-helena,
   &.shn,
   &.sh {
     background-position: -112px -132px
   }
 
+  &#{$flags-numeric-code-prefix}705,
   &.slovenia,
   &.svn,
   &.si {
     background-position: -128px -132px
   }
 
+  &#{$flags-numeric-code-prefix}703,
   &.slovakia,
   &.svk,
   &.sk {
     background-position: -144px -132px
   }
 
+  &#{$flags-numeric-code-prefix}694,
   &.sierra-leone,
   &.sle,
   &.sl {
     background-position: -160px -132px
   }
 
+  &#{$flags-numeric-code-prefix}674,
   &.san-marino,
   &.smr,
   &.sm {
     background-position: -176px -132px
   }
 
+  &#{$flags-numeric-code-prefix}686,
   &.senegal,
   &.sen,
   &.sn {
     background-position: -192px -132px
   }
 
+  &#{$flags-numeric-code-prefix}706,
   &.somalia,
   &.som,
   &.so {
@@ -1234,71 +1449,86 @@ $flags-path: '../images/flags.png' !default;
     background-position: -224px -132px
   }
 
+  &#{$flags-numeric-code-prefix}740,
   &.suriname,
   &.sur,
   &.sr {
     background-position: -240px -132px
   }
 
+  &#{$flags-numeric-code-prefix}728,
   &.south-sudan,
   &.ssd,
   &.ss {
     background-position: 0 -143px
   }
 
+  &#{$flags-numeric-code-prefix}678,
   &.sao-tome-and-principe,
   &.stp,
   &.st {
     background-position: -16px -143px
   }
 
+  &#{$flags-numeric-code-prefix}222,
   &.el-salvador,
   &.slv,
   &.sv {
     background-position: -32px -143px
   }
 
+  &#{$flags-numeric-code-prefix}534,
+  &.sint-maarten,
+  &.sxm,
   &.sx {
     background-position: -48px -143px
   }
 
+  &#{$flags-numeric-code-prefix}760,
   &.syria,
   &.syr,
   &.sy {
     background-position: -64px -143px
   }
 
+  &#{$flags-numeric-code-prefix}748,
   &.swaziland,
   &.swz,
   &.sz {
     background-position: -80px -143px
   }
 
+  &#{$flags-numeric-code-prefix}796,
   &.turks-and-caicos-islands,
   &.tca,
   &.tc {
     background-position: -96px -143px
   }
 
+  &#{$flags-numeric-code-prefix}148,
   &.chad,
   &.tcd,
   &.td {
     background-position: -112px -143px
   }
 
+  &#{$flags-numeric-code-prefix}260,
   &.french-southern-territories,
   &.atf,
   &.tf {
     background-position: -128px -143px
   }
 
+  &#{$flags-numeric-code-prefix}768,
   &.togo,
   &.tgo,
   &.tg {
     background-position: -144px -143px
   }
 
+  &#{$flags-numeric-code-prefix}764,
   &.thailand,
+  &.tha,
   &.th {
     background-position: -160px -143px
   }
@@ -1307,90 +1537,105 @@ $flags-path: '../images/flags.png' !default;
     background-position: -176px -143px
   }
 
+  &#{$flags-numeric-code-prefix}762,
   &.tajikistan,
   &.tjk,
   &.tj {
     background-position: -192px -143px
   }
 
+  &#{$flags-numeric-code-prefix}772,
   &.tokelau,
   &.tkl,
   &.tk {
     background-position: -208px -143px
   }
 
+  &#{$flags-numeric-code-prefix}626,
   &.timor-leste,
   &.tls,
   &.tl {
     background-position: -224px -143px
   }
 
+  &#{$flags-numeric-code-prefix}795,
   &.turkmenistan,
   &.tkm,
   &.tm {
     background-position: -240px -143px
   }
 
+  &#{$flags-numeric-code-prefix}788,
   &.tunisia,
   &.tun,
   &.tn {
     background-position: 0 -154px
   }
 
+  &#{$flags-numeric-code-prefix}776,
   &.tonga,
   &.ton,
   &.to {
     background-position: -16px -154px
   }
 
+  &#{$flags-numeric-code-prefix}792,
   &.turkey,
   &.tur,
   &.tr {
     background-position: -32px -154px
   }
 
+  &#{$flags-numeric-code-prefix}780,
   &.trinidad-and-tobago,
   &.tto,
   &.tt {
     background-position: -48px -154px
   }
 
+  &#{$flags-numeric-code-prefix}798,
   &.tuvalu,
   &.tuv,
   &.tv {
     background-position: -64px -154px
   }
 
+  &#{$flags-numeric-code-prefix}158,
   &.taiwan,
   &.twn,
   &.tw {
     background-position: -80px -154px
   }
 
+  &#{$flags-numeric-code-prefix}834,
   &.tanzania,
   &.tza,
   &.tz {
     background-position: -96px -154px
   }
 
+  &#{$flags-numeric-code-prefix}804,
   &.ukraine,
   &.ukr,
   &.ua {
     background-position: -112px -154px
   }
 
+  &#{$flags-numeric-code-prefix}800,
   &.uganda,
   &.uga,
   &.ug {
     background-position: -128px -154px
   }
 
+  &#{$flags-numeric-code-prefix}581,
   &.united-states-minor-outlying-islands,
   &.umi,
   &.um {
     background-position: -144px -154px
   }
 
+  &#{$flags-numeric-code-prefix}840,
   &.united-states-of-america,
   &.united-states,
   &.america,
@@ -1399,48 +1644,56 @@ $flags-path: '../images/flags.png' !default;
     background-position: -160px -154px
   }
 
+  &#{$flags-numeric-code-prefix}858,
   &.uruguay,
   &.ury,
   &.uy {
     background-position: -176px -154px
   }
 
+  &#{$flags-numeric-code-prefix}860,
   &.uzbekistan,
   &.uzb,
   &.uz {
     background-position: -192px -154px
   }
 
+  &#{$flags-numeric-code-prefix}336,
   &.vatican,
   &.vat,
   &.va {
     background-position: -208px -154px
   }
 
+  &#{$flags-numeric-code-prefix}670,
   &.saint-vincent-and-grenadines,
   &.vct,
   &.vc {
     background-position: -224px -154px
   }
 
+  &#{$flags-numeric-code-prefix}862,
   &.venezuela,
   &.ven,
   &.ve {
     background-position: -240px -154px
   }
 
+  &#{$flags-numeric-code-prefix}092,
   &.british-virgin-islands,
   &.vgb,
   &.vg {
     background-position: 0 -165px
   }
 
+  &#{$flags-numeric-code-prefix}850,
   &.virgin-islands,
   &.vir,
   &.vi {
     background-position: -16px -165px
   }
 
+  &#{$flags-numeric-code-prefix}704,
   &.vietnam,
   &.viet-nam,
   &.vnm,
@@ -1448,6 +1701,7 @@ $flags-path: '../images/flags.png' !default;
     background-position: -32px -165px
   }
 
+  &#{$flags-numeric-code-prefix}548,
   &.vanuatu,
   &.vut,
   &.vu {
@@ -1458,35 +1712,42 @@ $flags-path: '../images/flags.png' !default;
     background-position: -64px -165px
   }
 
+  &#{$flags-numeric-code-prefix}876,
   &.wallis-and-futuna-islands,
   &.wlf,
   &.wf {
     background-position: -80px -165px
   }
 
+  &#{$flags-numeric-code-prefix}882,
   &.samoa,
   &.wsm,
   &.ws {
     background-position: -96px -165px
   }
 
+  &#{$flags-numeric-code-prefix}383,
   &.kosovo,
+  &.xkx,
   &.xk {
     background-position: -112px -165px
   }
 
+  &#{$flags-numeric-code-prefix}887,
   &.yemen,
   &.yem,
   &.ye {
     background-position: -128px -165px
   }
 
+  &#{$flags-numeric-code-prefix}175,
   &.mayotte,
   &.myt,
   &.yt {
     background-position: -144px -165px
   }
 
+  &#{$flags-numeric-code-prefix}710,
   &.south-africa,
   &.zaf,
   &.za {
@@ -1497,12 +1758,14 @@ $flags-path: '../images/flags.png' !default;
     background-position: -176px -165px
   }
 
+  &#{$flags-numeric-code-prefix}894,
   &.zambia,
   &.zmb,
   &.zm {
     background-position: -192px -165px
   }
 
+  &#{$flags-numeric-code-prefix}716,
   &.zimbabwe,
   &.zwe,
   &.zw {
