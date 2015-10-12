@@ -53,7 +53,7 @@ Below is the table of those countries and their unofficial ISO codes, which is u
 Country Name | Alpha 2 | Alpha 3 | Numeric
 ------------ | ------------- | ------------ | ------------
 [Catalonia](https://en.wikipedia.org/wiki/Catalonia) | `ct` | `ctl` | `---`
-[Canary Islands](https://en.wikipedia.org/wiki/Canary_Islands) | `ci` | `cic` | `---`
+[Canary Islands](https://en.wikipedia.org/wiki/Canary_Islands) | `ic` | `cic` | `---`
 [England](https://en.wikipedia.org/wiki/England) | `en` | `eng` | `---`
 [Kurdistan](https://en.wikipedia.org/wiki/Kurdistan) | `kd` | `krd` | `---`
 [Scotland](https://en.wikipedia.org/wiki/Scotland) |  `sq`  | `sco` | `---`
