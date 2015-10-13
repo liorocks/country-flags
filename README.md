@@ -34,7 +34,7 @@ Flag sprites and list of countries can be found on [flag-sprites.com](https://ww
 
 This package has [SASS](http://sass-lang.com/) support (SCSS Syntax).
 
-```
+```sass
 // override default options
 $flags-selector: '.flag';
 $flags-numeric-code-prefix: '.n-';
